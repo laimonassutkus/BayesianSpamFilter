@@ -1,0 +1,29 @@
+[SPAM]  Diamonds on your watch will tell a lot about you.From nobody Sun Jan 03 19:33:40 2016
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Visit us right now to change your life status up to a successful person. Th=
+e irreplaceable accessory of every successful person is an expensive watch.=
+ You can get copies of original Swiss brands at our site!
+&nbsp;
+
+A smart click
+
+[Razor-users] Re: Can't use and undefined value.." error> Date: Mon, 30 Sep 2002 14:00:12 -0400 (EDT)
+> From: Dayv Gastonguay <noghri@nauticom.net>
+>
+> I just installed razor 2.152 on a FreeBSD 4.4-RELEASE box and having
+> problems with razor-check.  Any time razor-check is run, (with or without
+> arguments), i get this error:
+>
+> Can't use an undefined value as a symbol reference at
+> /usr/local/lib/perl5/site_perl/5.005/i386-freebsd/Razor2/Client/Agent.pm
+> line 756.
+>
+ Try installing the latest Perl (at least 5.6.1) port on Freebsd and make
+sure you set the system to use perl from ports (i.e. in the
+ports/lang/perl5/files directory run ./use.perl port. Reinstall the relevant
+perl modules needed by razor and try again.
+
+Sven
