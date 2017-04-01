@@ -17,7 +17,7 @@ pathToFileValidation = "./mix.txt"
 pathToSerializedTable = "./wordtable.p"
 
 # number of words to consider when calculating files "spaminess"
-numberOfWords = 25
+numberOfWords = 100
 
 # ignore words that have spam rating of 0 percent or 100 percent (y, n)
 ignoreExtremum = True
